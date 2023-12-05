@@ -715,40 +715,42 @@ producao: 0
   &lt;/p&gt;
 &lt;/div&gt;
 </tw-passagedata><tw-passagedata pid="55" name="documentos" tags="" position="675,1475" size="100,100">
-&lt;div class=&quot;&quot; style=&quot;display: flex; justify-content: space-between; max-width: 600px; margin: 0 auto;&quot;&gt;
-&lt;div style=&quot;width: 48%;&quot;&gt;
+&lt;div class=&quot;&quot; style=&quot;display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 600px; margin: 0 auto;&quot;&gt;
+&lt;!-- Primeira coluna --&gt;
+&lt;div style=&quot;flex: 1 0 48%; max-width: 48%;&quot;&gt;
+&lt;!-- Botões da primeira coluna --&gt;
 [if mudança === 0]
-&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
+&lt;div style=&quot;width: 100%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 10px auto;&quot;&gt;
 &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Controles de Mudança ]]&lt;/p&gt;
 &lt;/div&gt;
 [if dossie === 0]
-
-&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Dossiê Técnico de Registro]]&lt;/p&gt;
+&lt;div style=&quot;width: 100%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 10px auto;&quot;&gt;
+&lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Dossiê Técnico de Registro]]&lt;/p&gt;
 &lt;/div&gt;
 [if estabilidade === 0]
-&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Estudo de Estabilidade]]&lt;/p&gt;
+&lt;div style=&quot;width: 100%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 10px auto;&quot;&gt;
+&lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Estudo de Estabilidade]]&lt;/p&gt;
 &lt;/div&gt;
-
 &lt;/div&gt;
 
 &lt;!-- Segunda coluna --&gt;
-&lt;div style=&quot;width: 48%;&quot;&gt;
+&lt;div style=&quot;flex: 1 0 48%; max-width: 48%;&quot;&gt;
+&lt;!-- Botões da segunda coluna --&gt;
 [if historico === 0]
-&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Histórico do Projeto]]&lt;/p&gt;
+&lt;div style=&quot;width: 100%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 10px auto;&quot;&gt;
+&lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Histórico do Projeto]]&lt;/p&gt;
 &lt;/div&gt;
 [if fornecedores === 0]
-&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0; padding: 0 20px;&quot;&gt;[[📁Lista de Fornecedores Qualificados]]&lt;/p&gt;
+&lt;div style=&quot;width: 100%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 10px auto;&quot;&gt;
+&lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Lista de Fornecedores Qualificados]]&lt;/p&gt;
+&lt;/div&gt;
+[if producao === 0]
+&lt;div style=&quot;width: 100%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 10px auto;&quot;&gt;
+&lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Ordem de Produção]]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 
-[if producao === 0]
-&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Ordem de Produção]]&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 
 [if mudança !== 0 &amp;&amp; dossie !== 0 &amp;&amp; estabilidade !== 0 &amp;&amp; historico !== 0 &amp;&amp; fornecedores !== 0 &amp;&amp; producao !== 0]
 &lt;div style=&quot;max-width: 1000px; min-width: 250px; width: 100%; height: 40px; background-color: #ffb3b3; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
@@ -1331,6 +1333,8 @@ Não conformidade na cadeia produtiva que deve ser notificada à Anvisa:
 &lt;/div&gt;
 </tw-passagedata><tw-passagedata pid="87" name="4fornecedores" tags="" position="1500,2150" size="100,100">fornecedores: 4
 --
+&lt;div class=&quot;&quot; style=&quot;i&quot; Align=&quot;center&quot;&gt;&lt;i&gt;
+*Nenhuma inconformidade enviada ao setor responsavel.*
 &lt;div style=&quot;width: 200px; height: 40px; background-color: #d9d9d9; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
    &lt;p style=&quot;color: #fff; font-size: 20px;&quot;&gt;[[Retornar ao menu-&gt;documentos]]
   &lt;/p&gt;

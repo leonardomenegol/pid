@@ -724,7 +724,7 @@ Além disso, ter eles salvos também em sistemas eletrônicos aumnta a seguranç
 
 
 
-</tw-passagedata><tw-passagedata pid="55" name="Tudo bem. Vamos seguir lendo em formato digital" tags="" position="950,1350" size="100,100">mudança: 0
+</tw-passagedata><tw-passagedata pid="55" name="Tudo bem. Vamos seguir lendo em formato digital" tags="" position="975,1325" size="100,100">mudança: 0
 dossie: 0
 estabilidade: 0
 historico: 0
@@ -739,33 +739,40 @@ producao: 0
    &lt;p style=&quot;color: #fff; font-size: 20px;&quot;&gt;[[continuar-&gt;documentos]]
   &lt;/p&gt;
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="56" name="documentos" tags="" position="675,1475" size="100,100">
-&lt;div class=&quot;&quot; style=&quot;&quot; Align=&quot;left&quot;&gt;
+</tw-passagedata><tw-passagedata pid="56" name="documentos" tags="" position="675,1475" size="100,100">&lt;div class=&quot;&quot; style=&quot;display: flex; justify-content: space-between; max-width: 600px; margin: 0 auto;&quot;&gt;
+&lt;div style=&quot;width: 48%;&quot;&gt;
 [if mudança === 0]
-&lt;div style=&quot;width: 600px; height: 40px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-    &lt;p style=&quot;color: #fff; font-size: 20px;&quot;&gt;[[📁Controles de Mudança ]]&lt;/p&gt;
+&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
+&lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Controles de Mudança ]]&lt;/p&gt;
 &lt;/div&gt;
 [if dossie === 0]
-&lt;div style=&quot;width: 600px; height: 40px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-    &lt;p style=&quot;color: #fff; font-size: 20px;&quot;&gt;[[📁Dossiê Técnico de Registro]]&lt;/p&gt;
+
+&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
+   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Dossiê Técnico de Registro]]&lt;/p&gt;
 &lt;/div&gt;
 [if estabilidade === 0]
-&lt;div style=&quot;width: 600px; height: 40px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-    &lt;p style=&quot;color: #fff; font-size: 20px;&quot;&gt;[[📁Estudo de Estabilidade]]&lt;/p&gt;
-&lt;/div&gt;
-[if historico === 0]
-&lt;div style=&quot;width: 600px; height: 40px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-    &lt;p style=&quot;color: #fff; font-size: 20px;&quot;&gt;[[📁Histórico do Projeto]]&lt;/p&gt;
-&lt;/div&gt;
-[if fornecedores === 0]
-&lt;div style=&quot;width: 600px; height: 40px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-    &lt;p style=&quot;color: #fff; font-size: 20px;&quot;&gt;[[📁Lista de Fornecedores Qualificados]]&lt;/p&gt;
-&lt;/div&gt;
-[if producao === 0]
-&lt;div style=&quot;width: 600px; height: 40px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
-    &lt;p style=&quot;color: #fff; font-size: 20px;&quot;&gt;[[📁Ordem de Produção]]&lt;/p&gt;
+&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
+   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Estudo de Estabilidade]]&lt;/p&gt;
 &lt;/div&gt;
 
+&lt;/div&gt;
+
+&lt;!-- Segunda coluna --&gt;
+&lt;div style=&quot;width: 48%;&quot;&gt;
+[if historico === 0]
+&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
+   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Histórico do Projeto]]&lt;/p&gt;
+&lt;/div&gt;
+[if fornecedores === 0]
+&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
+   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0; padding: 0 20px;&quot;&gt;[[📁Lista de Fornecedores Qualificados]]&lt;/p&gt;
+&lt;/div&gt;
+
+[if producao === 0]
+&lt;div style=&quot;max-width: 400px; min-width: 250px; width: 80%; height: 60px; background-color: #ffd679; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
+   &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;&quot;&gt;[[📁Ordem de Produção]]&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 [if mudança !== 0 &amp;&amp; dossie !== 0 &amp;&amp; estabilidade !== 0 &amp;&amp; historico !== 0 &amp;&amp; fornecedores !== 0 &amp;&amp; producao !== 0]
 &lt;div style=&quot;width: 600px; height: 40px; background-color: #ffb3b3; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
@@ -1242,7 +1249,7 @@ Mensagem enviada ao setor responsavel.
    &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;  padding: 0 20px;&quot;&gt;[[a) O odor diferente do paracetamol pode ser causado por uma contaminação por microrganismos que produzem compostos voláteis. Devemos descartar o lote-piloto e investigar a origem da contaminação, além de revisar os procedimentos de limpeza e desinfecção dos equipamentos e utensílios utilizados na produção.-&gt;2historico]]
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;div style=&quot;max-width: 1000px; min-width: 250px; width: 100%; height: 240px; background-color: #c8c8ea; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
+&lt;div style=&quot;max-width: 1000px; min-width: 250px; width: 100%; height: 260px; background-color: #c8c8ea; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px auto;&quot;&gt;
    &lt;p style=&quot;color: #fff; font-size: 16px; margin: 0;  padding: 0 20px;&quot;&gt;[[b) O odor diferente do paracetamol pode ser causado por uma reação de oxidação do fármaco, que pode comprometer a sua eficácia e segurança. Devemos realizar testes adicionais para verificar a presença de produtos de degradação no Phesfenol e avaliar o seu impacto na qualidade do produto, além de notificar à Anvisa sobre a ocorrência da mudança.-&gt;3historico]]
 &lt;/p&gt;
 &lt;/div&gt;
